@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_NewLayout</title>
+</head>
+<body>
+
+    <header style="height:100px; background-color:brown">
+        <h2>This is header</h2>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer style="height:200px; background-color:black; color:white">
+        <h2>This is footer</h2>
+        <h2>@DateTime.Now</h2>
+</body>
+</html>

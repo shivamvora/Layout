@@ -12,12 +12,12 @@ namespace Layout.Controllers
         [Route("Employees")]
         public ActionResult GetList()
         {
-            return View();
+            return View("GetList","_Layout");
         }
         [Route("NewEmployee")]
         public ActionResult AddEmployee()
         {
-            return View();
+            return View("AddEmployee","_Layout");
         }
     }
 }

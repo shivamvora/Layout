@@ -11,7 +11,7 @@ namespace Layout.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View();
+            return View("index","_NewLayout");
         }
     }
 }
